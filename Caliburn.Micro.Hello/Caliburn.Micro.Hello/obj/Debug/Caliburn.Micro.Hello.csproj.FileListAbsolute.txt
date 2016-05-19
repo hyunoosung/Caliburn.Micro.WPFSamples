@@ -1,0 +1,1 @@
+C:\Users\drakefang\Documents\GitHub\Caliburn.Micro.WPFSamples\Caliburn.Micro.Hello\Caliburn.Micro.Hello\bin\Debug\Caliburn.Micro.Hello.exe.config
