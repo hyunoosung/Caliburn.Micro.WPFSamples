@@ -75,8 +75,22 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ChangeTextMessage.cs" />
+    <Compile Include="EventBootstrapper.cs" />
+    <Compile Include="ShellView.xaml.cs">
+      <DependentUpon>ShellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShellViewModel.cs" />
+    <Compile Include="TextView.xaml.cs">
+      <DependentUpon>TextView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonsView.xaml.cs">
+      <DependentUpon>ButtonsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -103,6 +117,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ButtonsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
